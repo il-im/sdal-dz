@@ -1,0 +1,24 @@
+.dark-mode:hover{
+    transition: 1s;
+}
+.dark-mode #switchButton {
+    background: #767272;
+}
+.dark-mode #switchButton button {
+    background: #767272;
+    color: white;
+}
+.dark-mode .container { 
+    background: #676565;
+    color: white;
+}
+.dark-mode .card {
+    background: #2B2626;
+}
+.dark-mode .card button {
+    background: #676565;
+    color: white;
+}
+.dark-mode #vectors {
+    fill: white;
+}

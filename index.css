@@ -1,0 +1,128 @@
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .body,
+  #switchButton {
+    height: 52px;
+    display: flex;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .body,
+  #switchButton img {
+    height: 45px;
+    width: 88px;
+    margin-top: 4px;
+    margin-bottom: 3px;
+    margin-left: 233px;
+    position: absolute;
+  }
+  .body,
+  #switchButton button {
+      position: absolute;
+      width: 267px;
+      height: 52px;
+      margin-left: 840px;
+      margin-right: 233px;
+      font-size: 24px;
+      font-family: Roboto;
+      background-color: white;
+      cursor: pointer;
+      box-shadow: 0px 3px 8px rgba(15, 1, 1, 0.89);
+  }
+  #switchButton button:hover {
+      background-color: pink;
+      box-shadow: 0px 10px 15px rgba(15, 1, 1, 0.89);
+  }
+  .container {
+      display: flex;
+      justify-content: center;
+  }
+  #content {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;  
+    max-width: 1000px;
+    width: 974px;
+  }
+  .title {
+    margin-top: 25px;
+    font-family: Roboto;
+    font-size: 24px;
+    margin-bottom: 46px;
+    margin-left: 315px;
+  }
+  .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    width: 498px;
+    height: 172px;
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    margin-bottom: 34px;
+    margin-left: 238px;
+  }
+  .card h3 {
+      position: absolute;
+      margin-left: 120.5px;
+      font-size: 18px;
+      font-family: Roboto;
+  }
+  .text {
+      position: absolute;
+      margin-left: 120.5px;
+      margin-top: 30px;
+      width: 330px;
+      font-size: 14px;
+      font-family: Roboto;
+  }
+  .p-avtor {
+      position: absolute;
+      margin-top: 128px;
+      margin-bottom: 23px;
+      font-size: 14px;
+      font-family: Roboto;
+  }
+  .p-data {
+      position: absolute;
+      margin-top: 128px;
+      margin-left: 110px;
+      font-size: 14px;
+      font-family: Roboto;
+  }
+  #vectors {
+      position: absolute;
+      margin-left: 231px;
+      margin-top: 127.75px;
+  }
+  .p-views {
+      position: absolute;
+      margin-top: 128px;
+      margin-left: 263px;
+      font-size: 14px;
+      font-family: Roboto;
+  }
+  .card button {
+      position: absolute;
+      margin-left: 337px;
+      margin-top: 120.5px;
+      width: 123px;
+      height: 31px;  
+      background: #FFFFFF;
+      border: 1px solid #000000;
+      border-radius: 6px;
+      font-size: 14px;
+      font-family: Roboto;
+      cursor: pointer;
+  }
+  .card button:hover {
+      transform: scale(1.1);
+  }
